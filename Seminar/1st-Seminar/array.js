@@ -150,6 +150,12 @@ console.log('sum = ', sum);
 
 /*
     3. 배열 순회
+
+    - for: 고전적인 for문
+    - for in: 해당 객체의 모든 열거할 수 있는 프로퍼티를 순회
+    - for of: 반복할 수 있는 객체를 순회 (배열의 요소에 접근)
+    - forEach(): 배열 순회 전용
+        - value, index값이 들어옴
 */
 var sprintStudy = ["김지수", "김승찬", "장서현", "서호영"];
 let studyIndexStr = '얘들아 번호 세볼게 ~ ';
